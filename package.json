@@ -1,0 +1,19 @@
+{
+  "name": "utools-text-generator",
+  "version": "1.0.0",
+  "description": "Utools插件：快速将复制的文本生成txt文件保存到桌面",
+  "main": "preload.js",
+  "keywords": [
+    "utools",
+    "plugin",
+    "text",
+    "file",
+    "generator",
+    "clipboard"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "pluginName": "文本生成器",
+  "description": "快速将复制的文本生成txt文件保存到桌面",
+  "author": "HUHA",
+  "homepage": "",
+  "version": "1.0.0",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "generate_txt",
+      "explain": "生成文件",
+      "cmds": [
+        "生成文件", "生成txt", "保存文本", "txt文件",
+        {
+          "type": "over",
+          "label": "生成txt文件",
+          "match": {
+            "clipboard": {
+              "type": "text",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
